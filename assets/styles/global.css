@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 1rem;
+}
+
+:root {
+  --font-family-1: "Asap", sans-serif;
+  --font-family-2: "Inconsolata", monospace;
+  --font-family-3: "Maven Pro", sans-serif;
+  --light-blue: #53d3dc;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+  --title-lg: 700 5.6rem/120% var(--font-family-1);
+  --title-md: 700 2.4rem/120% var(--font-family-1);
+  --title-sm: 700 1.6rem/120% var(--font-family-1);
+  --subtitle: 400 2rem/120% var(--font-family-2);
+  --text-md: 400 1.6rem/140% var(--font-family-3);
+  --text-sm: 400 1.4rem/140% var(--font-family-3);
+}
+
+html {
+  font-size: 10px;
+  color: var(--gray-500);
+  font-family: var(--font-family-asap);
+}
+
+.container {
+  padding: 12rem 15.6rem;
+}
+
+.title-lg {
+  font: var(--title-lg);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}

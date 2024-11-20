@@ -1,0 +1,81 @@
+#Intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../imgs/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+
+  header {
+    text-align: center;
+    margin-inline: auto;
+    .intro-container {
+      display: flex;
+      flex-direction: column;
+      gap: 5.6rem;
+      .intro-user {
+        position: relative;
+        margin-inline: auto;
+        img {
+          width: 9.6rem;
+          border-radius: 50%;
+          border: 2px solid var(--light-blue);
+          padding: 5px;
+        }
+
+        span {
+          position: absolute;
+          bottom: -3px;
+          right: 0;
+          background-image: url(../imgs/Code.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: 3.2rem;
+          width: 3.2rem;
+        }
+      }
+
+      .intro-text {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+
+        h1 {
+          color: var(--gray-600);
+        }
+
+        p {
+          color: var(--gray-500);
+        }
+        span {
+          color: var(--light-blue);
+        }
+
+        p:last-child {
+          max-width: 68rem;
+          color: var(--gray-400);
+        }
+      }
+
+      .technologies {
+        display: flex;
+        gap: 1.6rem;
+
+        a {
+          display: flex;
+          align-items: center;
+          gap: 0.8rem;
+          background-color: var(--gray-300);
+          border-radius: 999px;
+          padding: 0.8rem 1.6rem;
+
+          p {
+            font: var(--text-md);
+          }
+        }
+      }
+    }
+  }
+}
