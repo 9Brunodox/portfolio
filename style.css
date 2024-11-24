@@ -1,2 +1,6 @@
 @import url(./assets/styles/global.css);
+@import url(./assets/styles/utilities.css);
 @import url(./assets/styles/intro.css);
+@import url(./assets/styles/projects.css);
+@import url(./assets/styles/services.css);
+@import url(./assets/styles/contacts.css);

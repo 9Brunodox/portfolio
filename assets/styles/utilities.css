@@ -1,0 +1,40 @@
+.container {
+  margin: 12rem 15.6rem;
+}
+
+.title-lg {
+  font: var(--title-lg);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.title-md {
+  font: var(--title-md);
+}
+
+.title-sm {
+  font: var(--title-sm);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-md-maven {
+  font: var(--text-md-maven);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+.brunodox {
+  color: var(--light-blue);
+}
+
+.display-flex-col {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,30 @@
+#Services {
+  background-color: var(--gray-100);
+  align-items: center;
+  padding: 8.6rem;
+
+  #services-content{
+    gap: 5.6rem;
+
+    #services-text{
+        text-align: center;
+        gap: .8rem;
+    }
+    #services-cards{
+        display: flex;
+        gap: 2.4rem;
+        
+        .job-card{
+            gap: 2rem;
+            border: 2px solid var(--gray-200);
+            padding: 2rem;
+            border-radius: 12px;
+            width: 26rem;
+        }
+
+        .card-text{
+            gap: .8rem;
+        }
+    }
+  }
+}

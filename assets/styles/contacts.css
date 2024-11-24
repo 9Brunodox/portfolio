@@ -1,0 +1,60 @@
+#Contact {
+  background-image: url(../imgs/Background_Contacts.png);
+  padding: 8.6rem;
+
+  #contact-content {
+    align-items: center;
+    gap: 5rem;
+
+    #contact-text {
+      text-align: center;
+      gap: 0.8rem;
+    }
+
+    #social-medias {
+      width: 40rem;
+      gap: 1.6rem;
+    }
+
+    .sm-card {
+      background-color: var(--gray-300);
+      padding: 2rem;
+      border-radius: 8px;
+      a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .sm-content {
+          display: flex;
+          align-items: center;
+          text-align: center;
+
+          justify-content: center;
+          img {
+            width: 2.8rem;
+          }
+        }
+        .sm-link {
+          display: flex;
+          align-items: center;
+          img {
+            width: 2rem;
+          }
+        }
+
+        .sm-content {
+          gap: 1.2rem;
+          p {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .sm-card:hover {
+      background-color: var(--gray-250);
+      cursor: pointer;
+    }
+  }
+}
